@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Items" max_length="40" name="x_832172_item_trac_items" type="collection">
+        <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved"/>
+                <element inactive_on_update="false" label="Rejected"/>
+            </choice>
+        </element>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Courier" max_length="32" name="courier" reference="x_832172_item_trac_courier" type="reference"/>
         <element label="Description" max_length="40" name="description" type="string"/>
-        <element default="javascript: global.getNextObjNumberPadded();" label="Item ID" max_length="40" name="item_id" type="string"/>
+        <element default="javascript: global.getNextObjNumberPadded();" label="Item ID" max_length="40" name="item_id" read_only="true" type="string"/>
+        <element label="Package Size" max_length="32" name="package_size" reference="x_832172_item_trac_package_sizes" type="reference"/>
+        <element label="Status" max_length="32" name="status" reference="x_832172_item_trac_tracking_statuses" type="reference"/>
+        <index name="index">
+            <element name="courier"/>
+        </index>
+        <index name="index2">
+            <element name="package_size"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index4">
+            <element name="status"/>
+        </index>
     </element>
 </database>
