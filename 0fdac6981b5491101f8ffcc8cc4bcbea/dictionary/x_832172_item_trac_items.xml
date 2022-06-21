@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Items" max_length="40" name="x_832172_item_trac_items" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element default="javascript: global.getNextObjNumberPadded();" label="Item ID" max_length="40" name="item_id" type="string"/>
+    </element>
+</database>
