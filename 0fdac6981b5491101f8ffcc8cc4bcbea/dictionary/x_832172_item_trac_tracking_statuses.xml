@@ -2,6 +2,6 @@
     <element label="Tracking Statuses" max_length="40" name="x_832172_item_trac_tracking_statuses" type="collection">
         <element label="Description" max_length="40" name="description" type="string"/>
         <element display="true" label="Status" max_length="40" name="status" type="string"/>
-        <element default="javascript: global.getNextObjNumberPadded() ;" label="Status ID" max_length="40" name="status_id" type="string"/>
+        <element default="javascript: global.getNextObjNumberPadded() ;" label="Status ID" max_length="40" name="status_id" read_only="true" type="string"/>
     </element>
 </database>

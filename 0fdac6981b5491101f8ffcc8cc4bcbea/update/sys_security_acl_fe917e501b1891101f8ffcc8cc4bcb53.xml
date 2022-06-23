@@ -6,20 +6,20 @@
         <condition/>
         <description>Default access control on x_832172_item_trac_items</description>
         <name>x_832172_item_trac_items</name>
-        <operation display_value="delete">delete</operation>
+        <operation display_value="read">read</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-06-21 07:17:23</sys_created_on>
-        <sys_id>fdff46dc1b5491101f8ffcc8cc4bcbd3</sys_id>
+        <sys_created_on>2022-06-21 09:44:22</sys_created_on>
+        <sys_id>fe917e501b1891101f8ffcc8cc4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_832172_item_trac_items</sys_name>
         <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
-        <sys_update_name>sys_security_acl_fdff46dc1b5491101f8ffcc8cc4bcbd3</sys_update_name>
+        <sys_update_name>sys_security_acl_fe917e501b1891101f8ffcc8cc4bcb53</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 07:17:23</sys_updated_on>
+        <sys_updated_on>2022-06-21 09:44:22</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
