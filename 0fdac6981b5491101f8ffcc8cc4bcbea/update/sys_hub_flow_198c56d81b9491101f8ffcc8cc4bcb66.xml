@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>198c56d81b9491101f8ffcc8cc4bcb66</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Item Inspection Subflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name>sys_hub_flow_198c56d81b9491101f8ffcc8cc4bcb66</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:18</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:14</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=198c56d81b9491101f8ffcc8cc4bcb66"/>
@@ -239,10 +239,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:29:26</sys_created_on>
         <sys_id>017022101bd491101f8ffcc8cc4bcb71</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:51:06</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:26:48</sys_updated_on>
         <ui_id>6ffcf1e1-e547-450c-b4c3-ced5519a03ba</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=017022101bd491101f8ffcc8cc4bcb71"/>
@@ -392,10 +392,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:34:47</sys_created_on>
         <sys_id>23a1a6501bd491101f8ffcc8cc4bcb81</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:51:06</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:26:48</sys_updated_on>
         <ui_id>8f26b195-fbbd-402a-a84c-0a0d7347f0c3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=23a1a6501bd491101f8ffcc8cc4bcb81"/>
@@ -481,10 +481,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:34:47</sys_created_on>
         <sys_id>afa1a6501bd491101f8ffcc8cc4bcb89</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:51:06</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:26:48</sys_updated_on>
         <ui_id>68dfa6c2-80cf-4b34-9eef-8294ae9e4b2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=afa1a6501bd491101f8ffcc8cc4bcb89"/>
@@ -510,10 +510,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:34:47</sys_created_on>
         <sys_id>e7a1a6501bd491101f8ffcc8cc4bcb8b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 09:59:15</sys_updated_on>
-        <value>tracking_status={"display":"Return to Sender","value":"7148d2181b9491101f8ffcc8cc4bcb68"}</value>
+        <sys_updated_on>2022-06-22 02:45:25</sys_updated_on>
+        <value>tracking_status={"display":"Return to Sender","value":"7148d2181b9491101f8ffcc8cc4bcb68"}^inspection_comment=fd-scripted</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=afa1a6501bd491101f8ffcc8cc4bcb89"/>
@@ -553,7 +553,20 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=afa1a6501bd491101f8ffcc8cc4bcb89"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=afa1a6501bd491101f8ffcc8cc4bcb89^sys_idNOT INef4b96241b54d1101f8ffcc8cc4bcb37"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>afa1a6501bd491101f8ffcc8cc4bcb89</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"inspection_comment":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar comments \u003d [];\nvar dateRE \u003d /^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.*\\n/;\nvar apv \u003d new GlideRecord(\u0027sysapproval_approver\u0027);\napv.addQuery(\u0027sysapproval\u0027, fd_data.subflow_inputs.item.sys_id).addOrCondition(\u0027document_id\u0027, fd_data.subflow_inputs.item.sys_id);\napv.addQuery(\u0027state\u0027, \u0027rejected\u0027);\napv.query();\nwhile (apv.next()) {\n\t// remove the timestamp and user information and just get the comments value\n\tvar getComment \u003d apv.comments.getJournalEntry(1).replace(dateRE, \u0027\u0027);\n\tcomments.push(getComment.toString());\n}\nreturn comments.toString();","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 02:45:25</sys_created_on>
+        <sys_id>ef4b96241b54d1101f8ffcc8cc4bcb37</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 02:56:27</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=afa1a6501bd491101f8ffcc8cc4bcb89"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=198c56d81b9491101f8ffcc8cc4bcb66"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=198c56d81b9491101f8ffcc8cc4bcb66^sys_idNOT IN017022101bd491101f8ffcc8cc4bcb76,5b8047501b5891101f8ffcc8cc4bcbdc,978047501b5891101f8ffcc8cc4bcbf2,efa1a6501bd491101f8ffcc8cc4bcb83"/>
@@ -579,10 +592,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:29:26</sys_created_on>
         <sys_id>017022101bd491101f8ffcc8cc4bcb76</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:18</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:14</sys_updated_on>
         <ui_id>17282c24-1585-4f69-8a2f-8f47c106c5cc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -596,10 +609,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:29:26</sys_created_on>
         <sys_id>1d7022101bd491101f8ffcc8cc4bcb79</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 09:59:15</sys_updated_on>
-        <value>the item is approved</value>
+        <sys_updated_on>2022-06-22 06:13:03</sys_updated_on>
+        <value>the item passed the inspection</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=017022101bd491101f8ffcc8cc4bcb76"/>
@@ -652,10 +665,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:49:40</sys_created_on>
         <sys_id>5b8047501b5891101f8ffcc8cc4bcbdc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:18</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:14</sys_updated_on>
         <ui_id>55eb0fbd-5778-40df-adc7-7e08462159fb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -698,10 +711,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:49:40</sys_created_on>
         <sys_id>978047501b5891101f8ffcc8cc4bcbf2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:18</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:14</sys_updated_on>
         <ui_id>b63f0f37-b30f-46ad-8e1e-6cfe26181dd7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -743,10 +756,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 08:34:47</sys_created_on>
         <sys_id>efa1a6501bd491101f8ffcc8cc4bcb83</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:18</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:14</sys_updated_on>
         <ui_id>7c39818b-0b26-4e32-9d40-28367a75afff</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -812,17 +825,17 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"fb58fa181b1891101f8ffcc8cc4bcb8c","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Item Inspection Subflow">198c56d81b9491101f8ffcc8cc4bcb66</plan_id>
-        <snapshot>10e083901b5891101f8ffcc8cc4bcba7</snapshot>
+        <snapshot>5efd8b241b18d1101f8ffcc8cc4bcb84</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb58fa181b1891101f8ffcc8cc4bcb8c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:17</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:14</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -852,7 +865,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f58ba181b1891101f8ffcc8cc4bcbf2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -860,7 +873,7 @@
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:17</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=5f58ba181b1891101f8ffcc8cc4bcbf2"/>
@@ -1062,10 +1075,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_id>6b58fa181b1891101f8ffcc8cc4bcb71</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:17</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <ui_id>68dfa6c2-80cf-4b34-9eef-8294ae9e4b2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6b58fa181b1891101f8ffcc8cc4bcb71"/>
@@ -1091,10 +1104,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_id>b358fa181b1891101f8ffcc8cc4bcb73</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:13:55</sys_updated_on>
-        <value>tracking_status={"display":"Return to Sender","value":"7148d2181b9491101f8ffcc8cc4bcb68"}</value>
+        <sys_updated_on>2022-06-22 02:45:33</sys_updated_on>
+        <value>tracking_status={"display":"Return to Sender","value":"7148d2181b9491101f8ffcc8cc4bcb68"}^inspection_comment=fd-scripted</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6b58fa181b1891101f8ffcc8cc4bcb71"/>
@@ -1134,7 +1147,20 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=6b58fa181b1891101f8ffcc8cc4bcb71"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b58fa181b1891101f8ffcc8cc4bcb71^sys_idNOT INa55bd6241b54d1101f8ffcc8cc4bcbdd"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>6b58fa181b1891101f8ffcc8cc4bcb71</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"inspection_comment":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar comments \u003d [];\nvar dateRE \u003d /^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.*\\n/;\nvar apv \u003d new GlideRecord(\u0027sysapproval_approver\u0027);\napv.addQuery(\u0027sysapproval\u0027, fd_data.subflow_inputs.item.sys_id).addOrCondition(\u0027document_id\u0027, fd_data.subflow_inputs.item.sys_id);\napv.addQuery(\u0027state\u0027, \u0027rejected\u0027);\napv.query();\nwhile (apv.next()) {\n\t// remove the timestamp and user information and just get the comments value\n\tvar getComment \u003d apv.comments.getJournalEntry(1).replace(dateRE, \u0027\u0027);\n\tcomments.push(getComment.toString());\n}\nreturn comments.toString();","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 02:45:33</sys_created_on>
+        <sys_id>a55bd6241b54d1101f8ffcc8cc4bcbdd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 02:56:34</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b58fa181b1891101f8ffcc8cc4bcb71"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1151,10 +1177,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_id>e758fa181b1891101f8ffcc8cc4bcb30</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:16</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:12</sys_updated_on>
         <ui_id>6ffcf1e1-e547-450c-b4c3-ced5519a03ba</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e758fa181b1891101f8ffcc8cc4bcb30"/>
@@ -1304,10 +1330,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_id>eb58fa181b1891101f8ffcc8cc4bcb39</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:16</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <ui_id>8f26b195-fbbd-402a-a84c-0a0d7347f0c3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eb58fa181b1891101f8ffcc8cc4bcb39"/>
@@ -1402,10 +1428,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:50:07</sys_created_on>
         <sys_id>35a04b501b5891101f8ffcc8cc4bcb8b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:17</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <ui_id>55eb0fbd-5778-40df-adc7-7e08462159fb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1448,10 +1474,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:54</sys_created_on>
         <sys_id>6f58fa181b1891101f8ffcc8cc4bcb21</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:16</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <ui_id>17282c24-1585-4f69-8a2f-8f47c106c5cc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1465,10 +1491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_id>6f58fa181b1891101f8ffcc8cc4bcb25</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:13:55</sys_updated_on>
-        <value>the item is approved</value>
+        <sys_updated_on>2022-06-22 06:13:12</sys_updated_on>
+        <value>the item passed the inspection</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6f58fa181b1891101f8ffcc8cc4bcb21"/>
@@ -1521,10 +1547,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:50:07</sys_created_on>
         <sys_id>8aa04b501b5891101f8ffcc8cc4bcb93</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:17</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <ui_id>b63f0f37-b30f-46ad-8e1e-6cfe26181dd7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1566,10 +1592,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-21 10:13:55</sys_created_on>
         <sys_id>ef58fa181b1891101f8ffcc8cc4bcb26</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 10:50:17</sys_updated_on>
+        <sys_updated_on>2022-06-22 06:13:13</sys_updated_on>
         <ui_id>7c39818b-0b26-4e32-9d40-28367a75afff</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
