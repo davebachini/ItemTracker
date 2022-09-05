@@ -35,10 +35,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello <strong>${sender_s_email_address}</strong>,</p>
+        <message_html><![CDATA[<p>Hello <strong>${sender_s_name}</strong>,</p>
 <p>The item <strong>${number}</strong> has not been delivered successfully.</p>
 <p>Please see below for the reason:</p>
-<p><em>${delivery_comment}</em></p>]]></message_html>
+<p><strong><em>${delivery_comment}</em></strong></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Unsuccessful Delivery - Sender</name>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>034632f01bac15101f8ffcc8cc4bcb17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Unsuccessful Delivery - Sender</sys_name>
         <sys_overrides/>
         <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name>sysevent_email_action_034632f01bac15101f8ffcc8cc4bcb17</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-05 09:38:51</sys_updated_on>
+        <sys_updated_on>2022-07-07 00:06:34</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

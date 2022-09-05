@@ -2,16 +2,16 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>report_item_flow</internal_name>
-        <label_cache>[{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <label_cache>[{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.record","label":"1 - Create Record➛Inquiries Record","reference":"x_832172_item_trac_inquiries","reference_display":"Inquiries","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.table_name","label":"1 - Create Record➛Inquiries Table","reference":"x_832172_item_trac_inquiries","reference_display":"Inquiries","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}}]</label_cache>
         <master_snapshot>a6553e011be011101f8ffcc8cc4bcb5e</master_snapshot>
         <name>Report Item Flow</name>
         <natlang/>
@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:16:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>060b16851b6011101f8ffcc8cc4bcbaa</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Report Item Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
@@ -37,15 +37,15 @@
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name>sys_hub_flow_060b16851b6011101f8ffcc8cc4bcbaa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:52</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:10</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=060b16851b6011101f8ffcc8cc4bcbaa"/>
     <sys_variable_value action="delete_multiple" query="document_key=060b16851b6011101f8ffcc8cc4bcbaa"/>
     <sys_flow_email_trigger action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <email_conditions table="sys_email">receive_type=new^subjectLIKEInquiry<item display_value="New" endquery="false" field="receive_type" goto="false" newquery="false" operator="=" or="false" value="new"/>
-            <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Inquiry"/>
+        <active>true</active>
+        <email_conditions table="sys_email">receive_type=reply^subjectLIKEItem has been delivered<item display_value="Reply" endquery="false" field="receive_type" goto="false" newquery="false" operator="=" or="false" value="reply"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Item has been delivered"/>
         </email_conditions>
         <event_name>email.read</event_name>
         <name/>
@@ -57,17 +57,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ba553e011be011101f8ffcc8cc4bcbf6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:39:46</sys_updated_on>
-        <target_table>x_832172_item_trac_inquiries</target_table>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
+        <target_table>x_832172_item_trac_items</target_table>
     </sys_flow_email_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=060b16851b6011101f8ffcc8cc4bcbaa"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=060b16851b6011101f8ffcc8cc4bcbaa^sys_idNOT INe84ede491b6011101f8ffcc8cc4bcb5e"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment>This will be triggered if Receive Type is "New" and Subject contains "Inquiry about Item with ID"</comment>
+        <comment>This will be triggered if Receive Type is "Reply" and Subject contains "Item has been delivered"</comment>
         <display_text/>
         <flow display_value="Report Item Flow">060b16851b6011101f8ffcc8cc4bcbaa</flow>
         <name>Inbound Email</name>
@@ -75,10 +75,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>e84ede491b6011101f8ffcc8cc4bcb5e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:52</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:10</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -121,10 +121,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:59</sys_created_on>
         <sys_id>a44ede491b6011101f8ffcc8cc4bcb60</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:06</sys_updated_on>
-        <value>receive_type=new^subjectLIKEInquiry</value>
+        <sys_updated_on>2022-07-06 06:06:13</sys_updated_on>
+        <value>receive_type=reply^subjectLIKEItem has been delivered</value>
         <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=060b16851b6011101f8ffcc8cc4bcbaa"/>
@@ -146,7 +146,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=reference,uiTypeLabel=Reference</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=reference</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -204,14 +204,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>244ede491b6011101f8ffcc8cc4bcb51</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:51</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -227,7 +227,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -285,14 +285,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>284ede491b6011101f8ffcc8cc4bcb4a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:51</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -308,7 +308,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -369,14 +369,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>904ede491b6011101f8ffcc8cc4bcb40</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:51</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -392,7 +392,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -450,14 +450,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>a04ede491b6011101f8ffcc8cc4bcb47</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:51</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -473,7 +473,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -531,14 +531,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>a04ede491b6011101f8ffcc8cc4bcb58</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:52</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -554,7 +554,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -612,14 +612,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>a84ede491b6011101f8ffcc8cc4bcb54</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:52</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -635,7 +635,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -693,14 +693,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 02:30:58</sys_created_on>
         <sys_id>ac4ede491b6011101f8ffcc8cc4bcb4d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:51</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -721,7 +721,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment>Create a record in the Inquiries table</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Report Item Flow">060b16851b6011101f8ffcc8cc4bcbaa</flow>
         <order>1</order>
@@ -730,10 +730,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:08:57</sys_created_on>
         <sys_id>bfa4b2011be011101f8ffcc8cc4bcb7a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:40:52</sys_updated_on>
+        <sys_updated_by>abraham.lincoln</sys_updated_by>
+        <sys_updated_on>2022-07-06 06:31:48</sys_updated_on>
         <ui_id>d2fbf67a-864e-4c84-86dd-34b09e2d4d4c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bfa4b2011be011101f8ffcc8cc4bcb7a"/>
@@ -950,9 +950,9 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=060b16851b6011101f8ffcc8cc4bcbaa^sys_idNOT INf2553e011be011101f8ffcc8cc4bcbf7"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f2553e011be011101f8ffcc8cc4bcbf7","name":"plan","plan_signature":null}}</plan>
         <plan_id>060b16851b6011101f8ffcc8cc4bcbaa</plan_id>
-        <snapshot>a6553e011be011101f8ffcc8cc4bcb5e</snapshot>
+        <snapshot>546553011b6411101f8ffcc8cc4bcb92</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:54</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -977,7 +977,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>report_item_flow</internal_name>
-        <label_cache>[{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.table_name","label":"1 - Create Record➛Inquiries Table","reference":"x_832172_item_trac_inquiries","reference_display":"Inquiries","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.record","label":"1 - Create Record➛Inquiries Record","reference":"x_832172_item_trac_inquiries","reference_display":"Inquiries","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <label_cache>[{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.table_name","label":"1 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9b980e65-0e56-4963-a92e-8798cbe1129c.record","label":"1 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.table_name","label":"1 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75d3eaf7-04de-4087-bb55-2edd1ceecafd.record","label":"1 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.record","label":"1 - Create Record➛Inquiries Record","reference":"x_832172_item_trac_inquiries","reference_display":"Inquiries","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.table_name","label":"1 - Create Record➛Inquiries Table","reference":"x_832172_item_trac_inquiries","reference_display":"Inquiries","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2fbf67a-864e-4c84-86dd-34b09e2d4d4c.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}}]</label_cache>
         <master>true</master>
         <name>Report Item Flow</name>
         <natlang/>
@@ -994,7 +994,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6553e011be011101f8ffcc8cc4bcb5e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1002,14 +1002,14 @@
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a6553e011be011101f8ffcc8cc4bcb5e"/>
     <sys_variable_value action="delete_multiple" query="document_key=a6553e011be011101f8ffcc8cc4bcb5e"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=a6553e011be011101f8ffcc8cc4bcb5e^sys_idNOT INb2553e011be011101f8ffcc8cc4bcbdd"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment>This will be triggered if Receive Type is "New" and Subject contains "Inquiry about Item with ID"</comment>
+        <comment>This will be triggered if Receive Type is "Reply" and Subject contains "Item has been delivered"</comment>
         <display_text/>
         <flow display_value="Report Item Flow">a6553e011be011101f8ffcc8cc4bcb5e</flow>
         <name>Inbound Email</name>
@@ -1017,10 +1017,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:54</sys_created_on>
         <sys_id>b2553e011be011101f8ffcc8cc4bcbdd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:15</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1049,10 +1049,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:54</sys_created_on>
         <sys_id>76553e011be011101f8ffcc8cc4bcbde</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
-        <value>receive_type=new^subjectLIKEInquiry</value>
+        <sys_updated_on>2022-07-06 06:06:18</sys_updated_on>
+        <value>receive_type=reply^subjectLIKEItem has been delivered</value>
         <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1063,10 +1063,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:54</sys_created_on>
         <sys_id>b2553e011be011101f8ffcc8cc4bcbde</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
-        <value>x_832172_item_trac_inquiries</value>
+        <sys_updated_on>2022-07-06 05:53:15</sys_updated_on>
+        <value>x_832172_item_trac_items</value>
         <variable display_value="Target table">b914874853132300eb7c0a1806dc34b5</variable>
     </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a6553e011be011101f8ffcc8cc4bcb5e"/>
@@ -1146,14 +1146,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:52</sys_created_on>
         <sys_id>2e553e011be011101f8ffcc8cc4bcb7a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1227,14 +1227,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:53</sys_created_on>
         <sys_id>72553e011be011101f8ffcc8cc4bcbc1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1311,14 +1311,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:53</sys_created_on>
         <sys_id>a2553e011be011101f8ffcc8cc4bcb8b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1392,14 +1392,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:53</sys_created_on>
         <sys_id>a6553e011be011101f8ffcc8cc4bcb93</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1473,14 +1473,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:53</sys_created_on>
         <sys_id>ae553e011be011101f8ffcc8cc4bcb82</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1554,14 +1554,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:52</sys_created_on>
         <sys_id>ea553e011be011101f8ffcc8cc4bcb60</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1635,14 +1635,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:53</sys_created_on>
         <sys_id>f6553e011be011101f8ffcc8cc4bcbc9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1672,10 +1672,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 04:11:53</sys_created_on>
         <sys_id>ba553e011be011101f8ffcc8cc4bcbdb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 05:36:14</sys_updated_on>
+        <sys_updated_on>2022-07-06 06:23:09</sys_updated_on>
         <ui_id>d2fbf67a-864e-4c84-86dd-34b09e2d4d4c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ba553e011be011101f8ffcc8cc4bcbdb"/>
