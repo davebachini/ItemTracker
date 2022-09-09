@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Generated an email with subject: Item has been delivered</description>
+        <display_name>Generate Inbound Reply Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>21</order>
+        <step_config display_value="Generate Inbound Reply Email">b4549a71c3623300eaac11fe81d3ae15</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>5ccd09b11bb951101f8ffcc8cc4bcb19</sys_id>
+        <sys_name>Generate Inbound Reply Email</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_update_name>sys_atf_step_5ccd09b11bb951101f8ffcc8cc4bcb19</sys_update_name>
+        <table/>
+        <test display_value="Approval Test Scenario 1">b310207d1bb551101f8ffcc8cc4bcb82</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5ccd09b11bb951101f8ffcc8cc4bcb19"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ccd09b11bb951101f8ffcc8cc4bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>21ce49f11bb951101f8ffcc8cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <value/>
+        <variable display_value="Target Record">70c7df8ac3223300eaac11fe81d3aef2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ccd09b11bb951101f8ffcc8cc4bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>25ce49f11bb951101f8ffcc8cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <value>x_832172_item_trac_items</value>
+        <variable display_value="Target Table">b7948756c3323300eaac11fe81d3ae2d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ccd09b11bb951101f8ffcc8cc4bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>29ce89b11bb951101f8ffcc8cc4bcb5e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 01:58:50</sys_updated_on>
+        <value>Item has been delivered</value>
+        <variable display_value="Subject">991516b1c3623300eaac11fe81d3aefa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ccd09b11bb951101f8ffcc8cc4bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>6dce49f11bb951101f8ffcc8cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <value>Wrong item!</value>
+        <variable display_value="Body">a12596b1c3623300eaac11fe81d3ae1f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ccd09b11bb951101f8ffcc8cc4bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>a9ce49f11bb951101f8ffcc8cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <value>dev80684@servicenowdevelopers.com</value>
+        <variable display_value="To">e274d271c3623300eaac11fe81d3aebe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ccd09b11bb951101f8ffcc8cc4bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>e5ce49f11bb951101f8ffcc8cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <value>r.bachini@fujitsu.com</value>
+        <variable display_value="From">cc05d2b1c3623300eaac11fe81d3aeda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ccd09b11bb951101f8ffcc8cc4bcb19"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>5ccd09b11bb951101f8ffcc8cc4bcb19</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>e1ce89b11bb951101f8ffcc8cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <table>var__m_atf_input_variable_b4549a71c3623300eaac11fe81d3ae15</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>from</field>
+        <id>5ccd09b11bb951101f8ffcc8cc4bcb19</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>6dce89b11bb951101f8ffcc8cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <table>var__m_atf_input_variable_b4549a71c3623300eaac11fe81d3ae15</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>5ccd09b11bb951101f8ffcc8cc4bcb19</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>e1ce89b11bb951101f8ffcc8cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <table>var__m_atf_input_variable_b4549a71c3623300eaac11fe81d3ae15</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>5ccd09b11bb951101f8ffcc8cc4bcb19</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>a5ce89b11bb951101f8ffcc8cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <table>var__m_atf_input_variable_b4549a71c3623300eaac11fe81d3ae15</table>
+        <value>{{step['488d7c7d1b3951101f8ffcc8cc4bcbd7'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_table</field>
+        <id>5ccd09b11bb951101f8ffcc8cc4bcb19</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>a9ce89b11bb951101f8ffcc8cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <table>var__m_atf_input_variable_b4549a71c3623300eaac11fe81d3ae15</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>5ccd09b11bb951101f8ffcc8cc4bcb19</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:57:38</sys_created_on>
+        <sys_id>21ce89b11bb951101f8ffcc8cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:57:38</sys_updated_on>
+        <table>var__m_atf_input_variable_b4549a71c3623300eaac11fe81d3ae15</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

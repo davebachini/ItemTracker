@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Items" max_length="40" name="x_832172_item_trac_items" sizeclass="19" type="collection">
+    <element db_object_id="2581fa501b1891101f8ffcc8cc4bcbc4" extends="task" label="Items" max_length="40" name="x_832172_item_trac_items" type="collection">
         <element label="Courier" mandatory="true" max_length="32" name="courier" reference="x_832172_item_trac_courier" type="reference"/>
         <element label="Delivery Comment" max_length="1000" name="delivery_comment" type="string"/>
         <element label="Delivery Person" max_length="32" name="delivery_person" read_only="true" reference="sys_user" type="reference"/>
         <element label="Inspection Comment" max_length="1000" name="inspection_comment" type="string"/>
         <element label="Package Size" mandatory="true" max_length="32" name="package_size" reference="x_832172_item_trac_package_sizes" type="reference"/>
-        <element label="Recipient's Email Address" max_length="100" name="recipient_s_email_address" type="string"/>
-        <element label="Recipient's Name" max_length="40" name="recipient_s_name" type="string"/>
-        <element label="Sender's Email Address" max_length="100" name="sender_s_email_address" type="string"/>
-        <element label="Sender's Name" max_length="40" name="sender_s_name" type="string"/>
+        <element label="Recipient's Email Address" mandatory="true" max_length="100" name="recipient_s_email_address" type="string"/>
+        <element label="Recipient's Name" mandatory="true" max_length="40" name="recipient_s_name" type="string"/>
+        <element label="Sender's Email Address" mandatory="true" max_length="100" name="sender_s_email_address" type="string"/>
+        <element label="Sender's Name" mandatory="true" max_length="40" name="sender_s_name" type="string"/>
         <element default="a01812181b9491101f8ffcc8cc4bcb44" label="Tracking Status" max_length="32" name="tracking_status" read_only="true" reference="x_832172_item_trac_tracking_statuses" type="reference"/>
     </element>
 </database>

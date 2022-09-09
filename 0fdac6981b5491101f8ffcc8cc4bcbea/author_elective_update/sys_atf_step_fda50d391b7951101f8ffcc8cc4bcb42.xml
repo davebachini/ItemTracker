@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">73ace4b91bf551101f8ffcc8cc4bcbc2</copied_from>
+        <description>Impersonate the user: Beth Anglin with user Id: beth.anglin
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate "Beth Anglin".</notes>
+        <order>11</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:47</sys_created_on>
+        <sys_id>fda50d391b7951101f8ffcc8cc4bcb42</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_update_name>sys_atf_step_fda50d391b7951101f8ffcc8cc4bcb42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:19:15</sys_updated_on>
+        <table/>
+        <test display_value="Approval Test Scenario 1 copy">9da5c5391b7951101f8ffcc8cc4bcb25</test>
+        <timeout/>
+        <warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=fda50d391b7951101f8ffcc8cc4bcb42"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fda50d391b7951101f8ffcc8cc4bcb42</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:47</sys_created_on>
+        <sys_id>b9a50d391b7951101f8ffcc8cc4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:17:47</sys_updated_on>
+        <value>46d44a23a9fe19810012d100cca80666</value>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=fda50d391b7951101f8ffcc8cc4bcb42"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</application>
+        <file_path/>
+        <instance_id>3ed2a421dbf0f3c04d2bac44d4961916</instance_id>
+        <instance_name>dev80684</instance_name>
+        <name>sys_atf_step_fda50d391b7951101f8ffcc8cc4bcb42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Impersonate">73ace4b91bf551101f8ffcc8cc4bcbc2</copied_from><description>Impersonate the user: Beth Anglin with user Id: beth.anglin
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes>Impersonate "Beth Anglin".</notes><order>11</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:47</sys_created_on><sys_id>fda50d391b7951101f8ffcc8cc4bcb42</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package><sys_policy/><sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope><sys_update_name>sys_atf_step_fda50d391b7951101f8ffcc8cc4bcb42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:19:15</sys_updated_on><table/><test display_value="Approval Test Scenario 1 copy">9da5c5391b7951101f8ffcc8cc4bcb25</test><timeout/><warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=fda50d391b7951101f8ffcc8cc4bcb42"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fda50d391b7951101f8ffcc8cc4bcb42</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:47</sys_created_on><sys_id>b9a50d391b7951101f8ffcc8cc4bcb43</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:17:47</sys_updated_on><value>46d44a23a9fe19810012d100cca80666</value><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=fda50d391b7951101f8ffcc8cc4bcb42"/></record_update>]]></payload>
+        <payload_hash>-1780790468</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>068ee69c1bd491101f8ffcc8cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:19:15</sys_created_on>
+        <sys_id>dbf585791b7951101f8ffcc8cc4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1831bf79aa20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:19:15</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>d3f58579b47951100b9161abed521b47</update_guid>
+        <update_guid_history>d3f58579b47951100b9161abed521b47:-1780790468,72f54579b57951108ea4e4db162ff3bf:2104588379,eaf5457987795110a5e6368b8982725a:1694999930,31a50d393679511058d46c86231f5445:1285411481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:19:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0de05c7f896248eca3f074c7ad808510</sys_id>
+        <sys_metadata>fda50d391b7951101f8ffcc8cc4bcb42</sys_metadata>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_scope_delete display_value="">713dc9f0f4d74e35b6c5c8aedc6cf511</sys_scope_delete>
+        <sys_update_name>sys_atf_step_fda50d391b7951101f8ffcc8cc4bcb42</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_fda50d391b7951101f8ffcc8cc4bcb42">dbf585791b7951101f8ffcc8cc4bcb47</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

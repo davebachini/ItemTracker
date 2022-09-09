@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Record Query">488d7c7d1b3951101f8ffcc8cc4bcbd7</copied_from>
+        <description>Validate there is at least one record in 'x_832172_item_trac_items' matching query:
+Tracking Status = Delivered
+and Sys ID = {{Step 3: Submit a Form.Record}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Check if status has been changed to "Delivered"</notes>
+        <order>18</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:48</sys_created_on>
+        <sys_id>0aa50d391b7951101f8ffcc8cc4bcb6b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_update_name>sys_atf_step_0aa50d391b7951101f8ffcc8cc4bcb6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:19:05</sys_updated_on>
+        <table>x_832172_item_trac_items</table>
+        <test display_value="Approval Test Scenario 1 copy">9da5c5391b7951101f8ffcc8cc4bcb25</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=0aa50d391b7951101f8ffcc8cc4bcb6b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:48</sys_created_on>
+        <sys_id>0aa50d391b7951101f8ffcc8cc4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:17:48</sys_updated_on>
+        <value>x_832172_item_trac_items</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:48</sys_created_on>
+        <sys_id>46a50d391b7951101f8ffcc8cc4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:17:48</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:48</sys_created_on>
+        <sys_id>82a50d391b7951101f8ffcc8cc4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:17:48</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:48</sys_created_on>
+        <sys_id>caa50d391b7951101f8ffcc8cc4bcb79</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:17:48</sys_updated_on>
+        <value>tracking_status=ba98d6d41b9491101f8ffcc8cc4bcbe5^sys_id={{step['19a5c9391b7951101f8ffcc8cc4bcbc4'].record_id}}^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0aa50d391b7951101f8ffcc8cc4bcb6b"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>0aa50d391b7951101f8ffcc8cc4bcb6b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:17:48</sys_created_on>
+        <sys_id>cea50d391b7951101f8ffcc8cc4bcb79</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:17:48</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>tracking_status=ba98d6d41b9491101f8ffcc8cc4bcbe5^sys_id={{step['19a5c9391b7951101f8ffcc8cc4bcbc4'].record_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</application>
+        <file_path/>
+        <instance_id>3ed2a421dbf0f3c04d2bac44d4961916</instance_id>
+        <instance_name>dev80684</instance_name>
+        <name>sys_atf_step_0aa50d391b7951101f8ffcc8cc4bcb6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Record Query">488d7c7d1b3951101f8ffcc8cc4bcbd7</copied_from><description>Validate there is at least one record in 'x_832172_item_trac_items' matching query:
+Tracking Status = Delivered
+and Sys ID = {{Step 3: Submit a Form.Record}}
+With a failure timeout of 5 Seconds</description><display_name>Record Query</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Check if status has been changed to "Delivered"</notes><order>18</order><step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:48</sys_created_on><sys_id>0aa50d391b7951101f8ffcc8cc4bcb6b</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Record Query</sys_name><sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package><sys_policy/><sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope><sys_update_name>sys_atf_step_0aa50d391b7951101f8ffcc8cc4bcb6b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:19:05</sys_updated_on><table>x_832172_item_trac_items</table><test display_value="Approval Test Scenario 1 copy">9da5c5391b7951101f8ffcc8cc4bcb25</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=0aa50d391b7951101f8ffcc8cc4bcb6b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:48</sys_created_on><sys_id>0aa50d391b7951101f8ffcc8cc4bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:17:48</sys_updated_on><value>x_832172_item_trac_items</value><variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:48</sys_created_on><sys_id>46a50d391b7951101f8ffcc8cc4bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:17:48</sys_updated_on><value>0</value><variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:48</sys_created_on><sys_id>82a50d391b7951101f8ffcc8cc4bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:17:48</sys_updated_on><value>records_match_query</value><variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0aa50d391b7951101f8ffcc8cc4bcb6b</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:48</sys_created_on><sys_id>caa50d391b7951101f8ffcc8cc4bcb79</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:17:48</sys_updated_on><value>tracking_status=ba98d6d41b9491101f8ffcc8cc4bcbe5^sys_id={{step['19a5c9391b7951101f8ffcc8cc4bcbc4'].record_id}}^EQ</value><variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=0aa50d391b7951101f8ffcc8cc4bcb6b"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>0aa50d391b7951101f8ffcc8cc4bcb6b</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:17:48</sys_created_on><sys_id>cea50d391b7951101f8ffcc8cc4bcb79</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:17:48</sys_updated_on><table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table><value>tracking_status=ba98d6d41b9491101f8ffcc8cc4bcbe5^sys_id={{step['19a5c9391b7951101f8ffcc8cc4bcbc4'].record_id}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1226304263</payload_hash>
+        <record_name>Record Query</record_name>
+        <reverted_from/>
+        <source>068ee69c1bd491101f8ffcc8cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:19:05</sys_created_on>
+        <sys_id>b0f5c1791b7951101f8ffcc8cc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1831bf773970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:19:05</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>b8f5c179ef7951103de67fd028b8cef2</update_guid>
+        <update_guid_history>b8f5c179ef7951103de67fd028b8cef2:-1226304263,06a50d39da795110346c9a2ae0df9281:-1323615592,8aa50d3978795110c40b8ec79267967b:-548144296</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:19:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>03873fc7c12946a68061b013130a1279</sys_id>
+        <sys_metadata>0aa50d391b7951101f8ffcc8cc4bcb6b</sys_metadata>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_scope_delete display_value="">713dc9f0f4d74e35b6c5c8aedc6cf511</sys_scope_delete>
+        <sys_update_name>sys_atf_step_0aa50d391b7951101f8ffcc8cc4bcb6b</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_0aa50d391b7951101f8ffcc8cc4bcb6b">b0f5c1791b7951101f8ffcc8cc4bcbf3</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

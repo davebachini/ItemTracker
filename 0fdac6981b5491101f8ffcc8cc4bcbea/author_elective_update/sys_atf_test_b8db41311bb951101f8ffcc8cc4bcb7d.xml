@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Test the Inbound Email Action used as a trigger in the Report Item Flow.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Inbound Email Action</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:46:45</sys_created_on>
+        <sys_id>b8db41311bb951101f8ffcc8cc4bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbound Email Action</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_update_name>sys_atf_test_b8db41311bb951101f8ffcc8cc4bcb7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:46:45</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=b8db41311bb951101f8ffcc8cc4bcb7d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</application>
+        <file_path/>
+        <instance_id>3ed2a421dbf0f3c04d2bac44d4961916</instance_id>
+        <instance_name>dev80684</instance_name>
+        <name>sys_atf_test_b8db41311bb951101f8ffcc8cc4bcb7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Test the Inbound Email Action used as a trigger in the Report Item Flow.</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Inbound Email Action</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-08 07:46:45</sys_created_on><sys_id>b8db41311bb951101f8ffcc8cc4bcb7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Inbound Email Action</sys_name><sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package><sys_policy/><sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope><sys_update_name>sys_atf_test_b8db41311bb951101f8ffcc8cc4bcb7d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-08 07:46:45</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=b8db41311bb951101f8ffcc8cc4bcb7d"/></record_update>]]></payload>
+        <payload_hash>-1926091768</payload_hash>
+        <record_name>Inbound Email Action</record_name>
+        <reverted_from/>
+        <source>068ee69c1bd491101f8ffcc8cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:46:45</sys_created_on>
+        <sys_id>0a4c05311bb951101f8ffcc8cc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1831c10c8f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 07:46:45</sys_updated_on>
+        <type>Test</type>
+        <update_guid>424c05317fb95110c53c0661cfc4f7e2</update_guid>
+        <update_guid_history>424c05317fb95110c53c0661cfc4f7e2:-1926091768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 07:52:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>2712d96c3f72492dacdd4faa82cdc181</sys_id>
+        <sys_metadata>b8db41311bb951101f8ffcc8cc4bcb7d</sys_metadata>
+        <sys_name>Inbound Email Action</sys_name>
+        <sys_package display_value="Item Tracker" source="x_832172_item_trac">0fdac6981b5491101f8ffcc8cc4bcbea</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Item Tracker">0fdac6981b5491101f8ffcc8cc4bcbea</sys_scope>
+        <sys_scope_delete display_value="">713dc9f0f4d74e35b6c5c8aedc6cf511</sys_scope_delete>
+        <sys_update_name>sys_atf_test_b8db41311bb951101f8ffcc8cc4bcb7d</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_b8db41311bb951101f8ffcc8cc4bcb7d">0a4c05311bb951101f8ffcc8cc4bcbe2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
